@@ -1,0 +1,49 @@
+html { 
+    background:     linear-gradient(
+        rgba(255, 255, 255, 0.45), 
+        rgba(255, 255, 255, 0.45)
+      ),url(images/header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+body {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    color: rgba(1,50,32, .8);
+}
+
+
+  header {
+    display: flex;
+    justify-content: center;
+    word-spacing: 20px;
+    background: rgba(255, 255, 255,.9);
+
+  }
+ main {
+     display: flex;
+     flex-direction: column;
+  }
+  ul {
+      margin: 0;
+  }
+  li {
+      display: inline;
+  }
+  footer {
+    background: rgba(46, 139, 87, 0.8);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: white;
+    bottom: 0;
+  }
+  .contact {
+      border-bottom: 1px solid white;
+      margin: auto 15%;
+  }
